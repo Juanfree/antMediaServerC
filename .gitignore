@@ -1,0 +1,5 @@
+.idea
+
+community/app/*
+
+.DS_Store

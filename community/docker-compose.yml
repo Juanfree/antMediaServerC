@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  ant-media-server-community:
+    image: juanfree/antmediacommunity:${VERSION}
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "1935:1935"
+      - "5080:5080"
